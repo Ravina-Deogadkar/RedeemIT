@@ -1,0 +1,12 @@
+{
+  "name": "RedeemIT",
+  "displayName": "RedeemIT",
+  "expo": {
+    "name": "RedeemIT",
+    "slug": "RedeemIT",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
