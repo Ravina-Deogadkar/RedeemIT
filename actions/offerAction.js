@@ -1,10 +1,4 @@
-const add_offer=(offerdetails)=>({
+export const addOffer=(offerdetails)=>({
 	type:'ADD_OFFER',
 	payload: offerdetails
 });
-
-export const addOfferDetails=(data)=>{
-	return (dispatch)=>{
-		dispatch(add_offer(data))
-	}
-}
