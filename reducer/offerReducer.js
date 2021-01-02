@@ -1,15 +1,7 @@
-import { combineReducers } from 'redux';
 
-const INITIAL_STATE = [
-	{
-		title: '',
-		desc: 'Alice',
-		validity: '',
-		dateAdded:'26-12-2020'	
-	}
-];
+const INITIAL_STATE = [];
 
-const offerReducer = (state = INITIAL_STATE,action)=>{
+export const offerReducer = (state = INITIAL_STATE,action)=>{
 	switch(action.type){
 		case 'ADD_OFFER':
 			if(action.payload)
@@ -27,8 +19,3 @@ const offerReducer = (state = INITIAL_STATE,action)=>{
 	}
 }
 
-export default combineReducers(
-	{
-		offers:offerReducer
-	}
-);
